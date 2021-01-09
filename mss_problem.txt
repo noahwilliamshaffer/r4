@@ -1,0 +1,39 @@
+		Problem: Maximum Subsequence Sum Problem
+
+Introduction
+
+Given a sequence of integer values (a1, a2, a3, ... aN), which can be either
+positive or negative, a subsequence of the integers with the maximum
+summation is called the maximum subsequence. For example the maximum
+subsequence of sequence (-2, 11, -4, 13, -5, -2) is (11, -4, 13) with a
+summation 20. 
+
+For this problem, you will be given a set of integer sequences. You need
+to find the maximum subsequence and the corresponding summation for each
+of the sequences. You can assume that each sequence has a unique maximum
+subsequence.  
+
+Input
+
+The input to the problem consists of a set of integer sequences, with
+each line of the input representing an integer sequence. The integers in
+a sequence are separated by a single white space. 
+
+Output  
+
+For each integer sequence, you need to compute the maximum subsequence
+and the corresponding summation. Each output line contains the summation
+of the maximum subsequence, followed by a ":", followed by a white space
+" ", and then followed by the corresponding maximum subsequence.
+Integers in the subsequence are separated by a white space. 
+The results of the sequences are outputted in the same order as that of
+the sequence in the input file (which is redirected to the standard input).
+
+Sample Input
+-2 11 -4 13 05 -2
+1 13 -33 -5 29 73 -95
+
+Sample Output
+20: 11 -4 13
+102: 29 73
+
